@@ -56,7 +56,7 @@ class App extends Component {
           return 0;
           // return a.name.localeCompare(b.name);
         });
-      default:
+      case "":
         return greaseFilterHogs;
     }
   };
